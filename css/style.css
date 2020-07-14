@@ -1,0 +1,64 @@
+body {
+    background-color: slateblue;
+    color: darkblue;
+    /* location */
+    background-image: url("../img/beach.jpg");
+    /* center horizontally and visually */
+    background-position: center center;
+    /* background image does not tile */
+    background-repeat: no repeat;
+    /* background image fixed in the viewport so the image doesn't
+       move when the content's height is greater than the image height */
+    background-attachment: fixed;
+    /* background image will rescale based on container size */
+    background-size: cover;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Seaweed Script', cursive;
+    font-size: xxx-large;
+}
+
+#description {
+  font-size: xx-large;
+}
+
+div {
+    margin: 10px 0px 10px 10px; 
+} 
+
+input, #dropdown {
+    margin-top: 5px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    padding: 4px 5px;
+}
+
+textarea {
+    background-color: lightblue;
+    font-family: 'Seaweed Script', cursive;
+    font-size: x-large;
+    margin-top: 5px;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    padding: 4px 5px;
+}
+
+/* user story #8 */
+input:invalid {
+  border-bottom: 1px solid blue;
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, whitesmoke, lightblue);
+}
+
+input:valid {
+  border: 2px solid whitesmoke;
+}
+
+.radio {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
